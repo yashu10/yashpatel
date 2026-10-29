@@ -22,7 +22,7 @@ Search the project for `TODO` and replace:
 | Behance links | project pages and the contact section link to your Behance profile (`behance.net/yashp11`). For a link to one specific Behance project, edit the `View more on Behance` button in that file in `projects/` |
 | Email, phone and social links | contact section in `index.html` (and `resume.html` for the email) |
 | Resume | replace `assets/resume.pdf` with a new PDF (same name) |
-| Your photo | add `assets/img/photo.jpg` (4:5 ratio). Until then a placeholder shows |
+| Your photo | replace `assets/img/photo.webp` (4:5 ratio, e.g. 880 x 1080) |
 | Site URL for link previews | `og:` meta tags in `index.html` (optional) |
 
 To change text on a detail page, edit the matching file in `projects/`. To change a cover image, replace the PNG in `assets/img/` with a new one (same file name, 808 x 632 or larger).
