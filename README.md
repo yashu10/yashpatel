@@ -3,11 +3,13 @@
 A fast, responsive, static portfolio site (plain HTML, CSS and a little JavaScript). No build step, no dependencies, so it deploys anywhere.
 
 ```
-index.html     page content
-styles.css     all styles
-script.js      mobile menu, scroll animations
-favicon.svg    browser tab icon
-assets/img/    case study covers and hero image
+index.html      home page
+resume.html     online resume viewer (no download needed)
+projects/       10 detail pages (7 case studies + web, branding, social)
+styles.css      all styles
+script.js       mobile menu, scroll animations, image zoom
+favicon.svg     browser tab icon
+assets/img/     covers, hero image and project screens
 ```
 
 ## 1. Customise it (do this first)
@@ -17,13 +19,13 @@ Search the project for `TODO` and replace:
 | What | Where |
 |---|---|
 | Your name, hero text, about text | `index.html` |
-| Case study links (7 cards + 3 "More work" cards) | `href="#"` in `index.html` → your Behance links |
+| Behance link for each project | each file in `projects/` has a `View full case study on Behance` button: search for `TODO` and replace `href="#"` |
 | Email and social links (LinkedIn, Behance, Dribbble) | contact section in `index.html` |
-| Resume | add your PDF as `assets/resume.pdf` |
+| Resume | add your PDF as `assets/resume.pdf`. The Resume page (`resume.html`) shows it online inside the page. Visitors can read it without downloading |
 | Your photo | add `assets/img/photo.jpg` (4:5 ratio). Until then a placeholder shows |
 | Site URL for link previews | `og:` meta tags in `index.html` (optional) |
 
-To change a cover image, replace the PNG in `assets/img/` with a new one (same file name, 808 x 632 or larger).
+To change text on a detail page, edit the matching file in `projects/`. To change a cover image, replace the PNG in `assets/img/` with a new one (same file name, 808 x 632 or larger).
 
 ## 2. Run it locally
 
