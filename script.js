@@ -55,6 +55,8 @@ document.getElementById('year').textContent = new Date().getFullYear();
     const img = z.querySelector('img');
     big.src = img.currentSrc || img.src;
     big.alt = img.alt;
+    box.classList.toggle('scroll', (img.getAttribute("height") || img.naturalHeight) / (img.getAttribute("width") || img.naturalWidth) > 2.2);
+    box.scrollTop = 0;
     box.classList.add('open');
     document.body.style.overflow = 'hidden';
   }));

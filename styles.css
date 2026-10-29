@@ -282,3 +282,14 @@ h2 { font-size: clamp(2rem, 4.4vw, 3rem); line-height: 1.2; font-weight: 800; le
 .contact-phone { font-size: 20px; font-weight: 700; color: #fff; letter-spacing: .01em; border-bottom: 2px solid rgba(255, 255, 255, .4); padding-bottom: 2px; }
 .contact-phone:hover { border-color: #fff; }
 .marquee-track { will-change: transform; }
+
+/* ---------- Extra: 4-up More work, CTA row, tall images ---------- */
+.grid-3 { grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.mini h3 { font-size: 19px; }
+.cta-row { display: flex; flex-wrap: wrap; gap: 12px; }
+.fig-cap { margin-top: 10px; font-size: 14px; color: var(--gray); font-weight: 500; }
+.wide-fig.narrow { max-width: 390px; }
+.lightbox.scroll { align-items: flex-start; overflow: auto; cursor: zoom-out; }
+.lightbox.scroll img { max-height: none; margin-inline: auto; }
+@media (max-width: 1000px) { .grid-3 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) { .grid-3 { grid-template-columns: 1fr; } .cta-row .btn { flex: 1 1 100%; } }
