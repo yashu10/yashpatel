@@ -19,9 +19,9 @@ Search the project for `TODO` and replace:
 | What | Where |
 |---|---|
 | Your name, hero text, about text | `index.html` |
-| Behance link for each project | each file in `projects/` has a `View full case study on Behance` button: search for `TODO` and replace `href="#"` |
-| Email and social links (LinkedIn, Behance, Dribbble) | contact section in `index.html` |
-| Resume | add your PDF as `assets/resume.pdf`. The Resume page (`resume.html`) shows it online inside the page. Visitors can read it without downloading |
+| Behance links | project pages and the contact section link to your Behance profile (`behance.net/yashp11`). For a link to one specific Behance project, edit the `View more on Behance` button in that file in `projects/` |
+| Email, phone and social links | contact section in `index.html` (and `resume.html` for the email) |
+| Resume | replace `assets/resume.pdf` with a new PDF (same name) |
 | Your photo | add `assets/img/photo.jpg` (4:5 ratio). Until then a placeholder shows |
 | Site URL for link previews | `og:` meta tags in `index.html` (optional) |
 

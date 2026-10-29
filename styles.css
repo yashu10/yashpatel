@@ -278,3 +278,6 @@ h2 { font-size: clamp(2rem, 4.4vw, 3rem); line-height: 1.2; font-weight: 800; le
   .process-list li { padding: 18px; gap: 16px; }
   .resume-viewer { height: 70vh; }
 }
+
+.contact-phone { font-size: 20px; font-weight: 700; color: #fff; letter-spacing: .01em; border-bottom: 2px solid rgba(255, 255, 255, .4); padding-bottom: 2px; }
+.contact-phone:hover { border-color: #fff; }
