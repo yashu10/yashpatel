@@ -67,5 +67,6 @@ git push -u origin main
 ## Notes
 
 - Fonts load from Google Fonts (Plus Jakarta Sans).
-- Images are 1x exports from Figma. For sharper images on retina screens, export the covers from Figma at 2x and replace the files.
+- Images are compressed WebP files (about 3 MB for the whole site). To change an image, convert your new image to `.webp` (for example at squoosh.app) and keep the same file name.
+- `assets/img/og-image.jpg` is the picture used in WhatsApp/LinkedIn link previews.
 - The design source is in Figma (page "Portfolio Website").

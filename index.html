@@ -11,9 +11,10 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Yash Patel — UI/UX Designer Portfolio">
   <meta property="og:description" content="UI/UX designer who turns complex products into simple experiences.">
-  <meta property="og:image" content="assets/img/hero-visual.png">
+  <meta property="og:image" content="assets/img/og-image.jpg">
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/img/hero-visual.webp" type="image/webp" fetchpriority="high">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -63,7 +64,7 @@
       </div>
 
       <div class="hero-visual">
-        <img src="assets/img/hero-visual.png" width="580" height="660" alt="Mobile app screens from my case studies: a salon booking app, a wellness app and an IoT monitoring dashboard">
+        <img src="assets/img/hero-visual.webp" fetchpriority="high" width="580" height="660" alt="Mobile app screens from my case studies: a salon booking app, a wellness app and an IoT monitoring dashboard" decoding="async">
       </div>
     </section>
 
@@ -88,7 +89,7 @@
       <!-- Behance links go on each project page (projects/*.html), search for TODO there -->
       <article class="card featured reveal">
         <a class="card-media" href="projects/prage.html" aria-label="PRAGE case study">
-          <img src="assets/img/prage.png" width="808" height="632" loading="lazy" alt="PRAGE EV bike rental app: hub list, vehicle detail and navigation screens">
+          <img src="assets/img/prage.webp" width="808" height="632" loading="lazy" alt="PRAGE EV bike rental app: hub list, vehicle detail and navigation screens" decoding="async">
         </a>
         <div class="card-body">
           <p class="eyebrow">Featured case study</p>
@@ -101,7 +102,7 @@
 
       <div class="grid">
         <article class="card reveal">
-          <a class="card-media" href="projects/atoma.html" aria-label="Atoma case study"><img src="assets/img/atoma.png" width="808" height="632" loading="lazy" alt="Atoma home beauty and salon app: home, service detail and AI assistant screens"></a>
+          <a class="card-media" href="projects/atoma.html" aria-label="Atoma case study"><img src="assets/img/atoma.webp" width="808" height="632" loading="lazy" alt="Atoma home beauty and salon app: home, service detail and AI assistant screens" decoding="async"></a>
           <div class="card-body">
             <div class="card-title"><h3>Atoma — Home Beauty &amp; Salon App</h3><a class="arrow" href="projects/atoma.html" aria-label="Open Atoma case study">↗</a></div>
             <p>An at-home beauty and salon booking app with an AI assistant, package details and a simple booking flow.</p>
@@ -110,7 +111,7 @@
         </article>
 
         <article class="card reveal">
-          <a class="card-media" href="projects/okomall.html" aria-label="OKOMALL case study"><img src="assets/img/okomall.png" width="808" height="632" loading="lazy" alt="OKOMALL salon booking platform shown on a laptop and a phone"></a>
+          <a class="card-media" href="projects/okomall.html" aria-label="OKOMALL case study"><img src="assets/img/okomall.webp" width="808" height="632" loading="lazy" alt="OKOMALL salon booking platform shown on a laptop and a phone" decoding="async"></a>
           <div class="card-body">
             <div class="card-title"><h3>OKOMALL — Salon Discovery &amp; Booking</h3><a class="arrow" href="projects/okomall.html" aria-label="Open OKOMALL case study">↗</a></div>
             <p>A responsive platform to find salons, compare services and send a booking request in four steps.</p>
@@ -119,7 +120,7 @@
         </article>
 
         <article class="card reveal">
-          <a class="card-media" href="projects/teamsync.html" aria-label="TeamSync case study"><img src="assets/img/teamsync.png" width="808" height="632" loading="lazy" alt="TeamSync project management dashboard on a laptop"></a>
+          <a class="card-media" href="projects/teamsync.html" aria-label="TeamSync case study"><img src="assets/img/teamsync.webp" width="808" height="632" loading="lazy" alt="TeamSync project management dashboard on a laptop" decoding="async"></a>
           <div class="card-body">
             <div class="card-title"><h3>TeamSync — Project Management</h3><a class="arrow" href="projects/teamsync.html" aria-label="Open TeamSync case study">↗</a></div>
             <p>One workspace for tasks, projects, team chat, files and calendar, so teams see what matters today.</p>
@@ -128,7 +129,7 @@
         </article>
 
         <article class="card reveal">
-          <a class="card-media" href="projects/warehouse-asset-management.html" aria-label="Warehouse Asset Management case study"><img src="assets/img/basf-warehouse.png" width="808" height="632" loading="lazy" alt="Warehouse asset management mobile app: login, bulk scan and asset list screens"></a>
+          <a class="card-media" href="projects/warehouse-asset-management.html" aria-label="Warehouse Asset Management case study"><img src="assets/img/basf-warehouse.webp" width="808" height="632" loading="lazy" alt="Warehouse asset management mobile app: login, bulk scan and asset list screens" decoding="async"></a>
           <div class="card-body">
             <div class="card-title"><h3>Warehouse Asset Management</h3><a class="arrow" href="projects/warehouse-asset-management.html" aria-label="Open Warehouse Asset Management case study">↗</a></div>
             <p>A mobile app for adding, scanning, verifying and backing up warehouse assets.</p>
@@ -137,7 +138,7 @@
         </article>
 
         <article class="card reveal">
-          <a class="card-media" href="projects/smart-hoist-system.html" aria-label="Smart Hoist System case study"><img src="assets/img/smart-hoist.png" width="808" height="632" loading="lazy" alt="Smart Hoist System dark mobile app: alert details, dashboard and live map screens"></a>
+          <a class="card-media" href="projects/smart-hoist-system.html" aria-label="Smart Hoist System case study"><img src="assets/img/smart-hoist.webp" width="808" height="632" loading="lazy" alt="Smart Hoist System dark mobile app: alert details, dashboard and live map screens" decoding="async"></a>
           <div class="card-body">
             <div class="card-title"><h3>Smart Hoist System</h3><a class="arrow" href="projects/smart-hoist-system.html" aria-label="Open Smart Hoist System case study">↗</a></div>
             <p>A dark-theme app for monitoring construction hoists in real time, with alerts and reports.</p>
@@ -146,7 +147,7 @@
         </article>
 
         <article class="card reveal">
-          <a class="card-media" href="projects/innerpeace.html" aria-label="InnerPeace case study"><img src="assets/img/innerpeace.png" width="808" height="632" loading="lazy" alt="InnerPeace mental wellness app: splash, home and guided session screens"></a>
+          <a class="card-media" href="projects/innerpeace.html" aria-label="InnerPeace case study"><img src="assets/img/innerpeace.webp" width="808" height="632" loading="lazy" alt="InnerPeace mental wellness app: splash, home and guided session screens" decoding="async"></a>
           <div class="card-body">
             <div class="card-title"><h3>InnerPeace — Wellness App</h3><a class="arrow" href="projects/innerpeace.html" aria-label="Open InnerPeace case study">↗</a></div>
             <p>A calm mental wellness app with mood check-ins, guided sessions and progress tracking.</p>
@@ -164,17 +165,17 @@
         <div class="grid-3">
           
           <a class="mini reveal" href="projects/web-design.html">
-            <img src="assets/img/web-design.png" width="808" height="632" loading="lazy" alt="Three website designs shown in browser windows">
+            <img src="assets/img/web-design.webp" width="808" height="632" loading="lazy" alt="Three website designs shown in browser windows" decoding="async">
             <h3>Web Design <span aria-hidden="true">↗</span></h3>
             <p>Corporate, real estate and e-commerce websites.</p>
           </a>
           <a class="mini reveal" href="projects/branding-and-print.html">
-            <img src="assets/img/branding.png" width="808" height="632" loading="lazy" alt="Branding mockups: safety vest, signage, polo shirt and logos">
+            <img src="assets/img/branding.webp" width="808" height="632" loading="lazy" alt="Branding mockups: safety vest, signage, polo shirt and logos" decoding="async">
             <h3>Branding &amp; Print <span aria-hidden="true">↗</span></h3>
             <p>Logos, stationery and brochures for engineering and cold-chain brands.</p>
           </a>
           <a class="mini reveal" href="projects/social-media-design.html">
-            <img src="assets/img/social-media.png" width="808" height="632" loading="lazy" alt="A tilted grid of social media posts for different brands">
+            <img src="assets/img/social-media.webp" width="808" height="632" loading="lazy" alt="A tilted grid of social media posts for different brands" decoding="async">
             <h3>Social Media Design <span aria-hidden="true">↗</span></h3>
             <p>Posts and campaign creatives for 10 brands.</p>
           </a>
