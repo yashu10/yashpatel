@@ -293,3 +293,7 @@ h2 { font-size: clamp(2rem, 4.4vw, 3rem); line-height: 1.2; font-weight: 800; le
 .lightbox.scroll img { max-height: none; margin-inline: auto; }
 @media (max-width: 1000px) { .grid-3 { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 760px) { .grid-3 { grid-template-columns: 1fr; } .cta-row .btn { flex: 1 1 100%; } }
+.grid + .featured { margin-top: 48px; margin-bottom: 0; }
+.info-grid.two { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 1000px) { .info-grid.two { grid-template-columns: 1fr; } }
+.sp-top { margin-top: 56px; }

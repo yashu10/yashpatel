@@ -5,7 +5,7 @@ A fast, responsive, static portfolio site (plain HTML, CSS and a little JavaScri
 ```
 index.html      home page
 resume.html     online resume viewer (no download needed)
-projects/       10 detail pages (7 case studies + web, branding, social)
+projects/       11 detail pages (8 case studies + web, branding, social, Darshan)
 styles.css      all styles
 script.js       mobile menu, scroll animations, image zoom
 favicon.svg     browser tab icon
